@@ -7,6 +7,5 @@ func sortColors(_ nums: inout [Int]){
                 nums.swapAt(j-1, j)
             }
         }
-        
     }
 }
