@@ -1,4 +1,5 @@
-class Solution {
+import SwiftUI
+
 func reverse(_ x: Int) -> Int{
     var xText = String(x)
     var newXText = ""
@@ -15,5 +16,4 @@ func reverse(_ x: Int) -> Int{
     else{
         return 0
     }
-}
 }
